@@ -8,11 +8,13 @@ using System.Windows.Forms;
 
 namespace Integral
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
+
+
     }
 }

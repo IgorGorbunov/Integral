@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Integral")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ULGU")]
+[assembly: AssemblyCompany("UlGU")]
 [assembly: AssemblyProduct("Integral")]
 [assembly: AssemblyCopyright("Copyright © ULGU 2016")]
 [assembly: AssemblyTrademark("")]
