@@ -155,7 +155,7 @@ namespace Integral
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.GhostWhite;
+            this.menuStrip1.BackColor = System.Drawing.Color.AliceBlue;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ôàéëToolStripMenuItem3,
             this.íàñòðîéêèToolStripMenuItem});
@@ -202,7 +202,7 @@ namespace Integral
             // 
             // íàñòðîéêèToolStripMenuItem
             // 
-            this.íàñòðîéêèToolStripMenuItem.BackColor = System.Drawing.Color.GhostWhite;
+            this.íàñòðîéêèToolStripMenuItem.BackColor = System.Drawing.Color.AliceBlue;
             this.íàñòðîéêèToolStripMenuItem.Name = "íàñòðîéêèToolStripMenuItem";
             this.íàñòðîéêèToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.íàñòðîéêèToolStripMenuItem.Text = "Íàñòðîéêè";
@@ -223,7 +223,7 @@ namespace Integral
             // 
             // statusStrip1
             // 
-            this.statusStrip1.BackColor = System.Drawing.Color.GhostWhite;
+            this.statusStrip1.BackColor = System.Drawing.Color.AliceBlue;
             this.statusStrip1.Location = new System.Drawing.Point(0, 369);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(816, 22);
@@ -258,7 +258,7 @@ namespace Integral
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.GhostWhite;
+            this.tabPage1.BackColor = System.Drawing.Color.AliceBlue;
             this.tabPage1.Controls.Add(this.panel11);
             this.tabPage1.Controls.Add(this.panel10);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
@@ -270,6 +270,7 @@ namespace Integral
             // 
             // panel11
             // 
+            this.panel11.BackColor = System.Drawing.Color.AliceBlue;
             this.panel11.Controls.Add(this.dataGridView2);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel11.Location = new System.Drawing.Point(3, 88);
@@ -280,6 +281,7 @@ namespace Integral
             // 
             // panel10
             // 
+            this.panel10.BackColor = System.Drawing.Color.AliceBlue;
             this.panel10.Controls.Add(this.label14);
             this.panel10.Controls.Add(this.button3);
             this.panel10.Controls.Add(this.pictureBox1);
@@ -329,7 +331,7 @@ namespace Integral
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.GhostWhite;
+            this.tabPage2.BackColor = System.Drawing.Color.AliceBlue;
             this.tabPage2.Controls.Add(this.dataGridView1);
             this.tabPage2.Controls.Add(this.panel3);
             this.tabPage2.Controls.Add(this.panel1);
@@ -343,7 +345,7 @@ namespace Integral
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.GhostWhite;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -411,6 +413,7 @@ namespace Integral
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.AliceBlue;
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.panel6);
@@ -501,6 +504,7 @@ namespace Integral
             // 
             // panel9
             // 
+            this.panel9.BackColor = System.Drawing.Color.AliceBlue;
             this.panel9.Controls.Add(this.button2);
             this.panel9.Controls.Add(this.bSelectAtributes);
             this.panel9.Controls.Add(this.button1);
@@ -540,6 +544,7 @@ namespace Integral
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.AliceBlue;
             this.panel1.Controls.Add(this.comboBox2);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label6);
@@ -690,7 +695,7 @@ namespace Integral
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.GhostWhite;
+            this.tabPage3.BackColor = System.Drawing.Color.AliceBlue;
             this.tabPage3.Controls.Add(this.panel13);
             this.tabPage3.Controls.Add(this.panel14);
             this.tabPage3.Controls.Add(this.panel12);
@@ -725,6 +730,7 @@ namespace Integral
             // dataGridView2
             // 
             this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column7,
@@ -743,6 +749,7 @@ namespace Integral
             // 
             // panel12
             // 
+            this.panel12.BackColor = System.Drawing.Color.AliceBlue;
             this.panel12.Controls.Add(this.label24);
             this.panel12.Controls.Add(this.label23);
             this.panel12.Controls.Add(this.dateTimePicker4);
@@ -830,7 +837,7 @@ namespace Integral
             // dataGridView3
             // 
             this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.BackgroundColor = System.Drawing.Color.GhostWhite;
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column13,
@@ -859,6 +866,7 @@ namespace Integral
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.AliceBlue;
             this.groupBox2.Controls.Add(this.label20);
             this.groupBox2.Controls.Add(this.panel16);
             this.groupBox2.Controls.Add(this.label21);
@@ -1062,7 +1070,7 @@ namespace Integral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(816, 391);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.statusStrip1);
