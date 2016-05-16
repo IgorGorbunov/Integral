@@ -91,12 +91,6 @@ namespace Integral
             this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.label14 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -126,6 +120,14 @@ namespace Integral
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.menuStrip1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -729,6 +731,8 @@ namespace Integral
             this.Column8,
             this.Column9,
             this.Column10,
+            this.Column20,
+            this.Column21,
             this.Column11,
             this.Column12});
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -736,46 +740,6 @@ namespace Integral
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(695, 208);
             this.dataGridView2.TabIndex = 0;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Наименование справочника";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            this.Column7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Наименование системы";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            this.Column8.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "Использовать в автоматическом режиме";
-            this.Column9.Name = "Column9";
-            this.Column9.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "Время начала интеграции";
-            this.Column10.Name = "Column10";
-            // 
-            // Column11
-            // 
-            this.Column11.HeaderText = "Настройки";
-            this.Column11.Name = "Column11";
-            this.Column11.Text = "Изменить";
-            this.Column11.Width = 152;
-            // 
-            // Column12
-            // 
-            this.Column12.HeaderText = "Конфигурационный файл";
-            this.Column12.Name = "Column12";
-            this.Column12.ReadOnly = true;
-            this.Column12.Text = "Изменить";
             // 
             // panel12
             // 
@@ -1039,6 +1003,61 @@ namespace Integral
             this.label24.TabIndex = 21;
             this.label24.Text = "по";
             // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Наименование справочника";
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            this.Column7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Наименование системы";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            this.Column8.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column8.Width = 90;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Использовать в автоматическом режиме";
+            this.Column9.Name = "Column9";
+            this.Column9.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Время начала интеграции";
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 70;
+            // 
+            // Column20
+            // 
+            this.Column20.HeaderText = "Использовать ограничитель";
+            this.Column20.Name = "Column20";
+            this.Column20.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column20.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Column21
+            // 
+            this.Column21.HeaderText = "Задать ограничитель";
+            this.Column21.Name = "Column21";
+            this.Column21.Width = 90;
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "Настройки";
+            this.Column11.Name = "Column11";
+            this.Column11.Text = "Изменить";
+            this.Column11.Width = 80;
+            // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "Конфигурационный файл";
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
+            this.Column12.Text = "Изменить";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1153,12 +1172,6 @@ namespace Integral
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewButtonColumn Column11;
-        private System.Windows.Forms.DataGridViewButtonColumn Column12;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.ComboBox comboBox4;
@@ -1188,6 +1201,14 @@ namespace Integral
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.DateTimePicker dateTimePicker4;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Column20;
+        private System.Windows.Forms.DataGridViewButtonColumn Column21;
+        private System.Windows.Forms.DataGridViewButtonColumn Column11;
+        private System.Windows.Forms.DataGridViewButtonColumn Column12;
 
     }
 }
