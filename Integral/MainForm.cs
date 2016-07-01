@@ -21,6 +21,12 @@ namespace Integral
             selectAtributesForm.ShowDialog();
         }
 
+        private void bStartAuto_Click(object sender, EventArgs e)
+        {
+            ConfigForm configForm = new ConfigForm();
+            configForm.ShowDialog();
+        }
+
 
     }
 }

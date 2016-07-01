@@ -43,9 +43,18 @@ namespace Integral
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.bStartAuto = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -87,19 +96,15 @@ namespace Integral
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.файлToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.label14 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column17 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel14 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -108,34 +113,29 @@ namespace Integral
             this.label22 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column17 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label19 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.label23 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column20 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column21 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label23 = new System.Windows.Forms.Label();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.label19 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.файлToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -145,12 +145,12 @@ namespace Integral
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.panel14.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -161,7 +161,7 @@ namespace Integral
             this.настройкиToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(816, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(750, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -226,7 +226,7 @@ namespace Integral
             this.statusStrip1.BackColor = System.Drawing.Color.AliceBlue;
             this.statusStrip1.Location = new System.Drawing.Point(0, 369);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(816, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(750, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -240,7 +240,7 @@ namespace Integral
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(816, 345);
+            this.splitContainer1.Size = new System.Drawing.Size(750, 345);
             this.splitContainer1.SplitterDistance = 83;
             this.splitContainer1.TabIndex = 2;
             // 
@@ -253,7 +253,7 @@ namespace Integral
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(729, 345);
+            this.tabControl1.Size = new System.Drawing.Size(663, 345);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -264,7 +264,7 @@ namespace Integral
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(721, 319);
+            this.tabPage1.Size = new System.Drawing.Size(655, 319);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Автоматическая интеграция";
             // 
@@ -276,40 +276,116 @@ namespace Integral
             this.panel11.Location = new System.Drawing.Point(3, 88);
             this.panel11.Name = "panel11";
             this.panel11.Padding = new System.Windows.Forms.Padding(10);
-            this.panel11.Size = new System.Drawing.Size(715, 228);
+            this.panel11.Size = new System.Drawing.Size(649, 228);
             this.panel11.TabIndex = 1;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column7,
+            this.Column8,
+            this.Column9,
+            this.Column10,
+            this.Column20,
+            this.Column21,
+            this.Column11,
+            this.Column12});
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(10, 10);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(629, 208);
+            this.dataGridView2.TabIndex = 0;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Наименование справочника";
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            this.Column7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Наименование системы";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            this.Column8.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column8.Width = 90;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Использовать в автоматическом режиме";
+            this.Column9.Name = "Column9";
+            this.Column9.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Время начала интеграции";
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 70;
+            // 
+            // Column20
+            // 
+            this.Column20.HeaderText = "Использовать ограничитель";
+            this.Column20.Name = "Column20";
+            this.Column20.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column20.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Column21
+            // 
+            this.Column21.HeaderText = "Задать ограничитель";
+            this.Column21.Name = "Column21";
+            this.Column21.Width = 90;
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "Настройки";
+            this.Column11.Name = "Column11";
+            this.Column11.Text = "Изменить";
+            this.Column11.Width = 80;
+            // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "Конфигурационный файл";
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
+            this.Column12.Text = "Изменить";
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.AliceBlue;
             this.panel10.Controls.Add(this.label14);
-            this.panel10.Controls.Add(this.button3);
+            this.panel10.Controls.Add(this.bStartAuto);
             this.panel10.Controls.Add(this.pictureBox1);
             this.panel10.Controls.Add(this.label13);
             this.panel10.Controls.Add(this.label12);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel10.Location = new System.Drawing.Point(3, 3);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(715, 85);
+            this.panel10.Size = new System.Drawing.Size(649, 85);
             this.panel10.TabIndex = 0;
             // 
-            // button3
+            // label14
             // 
-            this.button3.Location = new System.Drawing.Point(308, 11);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 34);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Запустить";
-            this.button3.UseVisualStyleBackColor = true;
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(16, 66);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(139, 13);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "Настройки справочников:";
             // 
-            // pictureBox1
+            // bStartAuto
             // 
-            this.pictureBox1.Image = global::Integral.Properties.Resources.Stoppe;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 29);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.bStartAuto.Location = new System.Drawing.Point(308, 11);
+            this.bStartAuto.Name = "bStartAuto";
+            this.bStartAuto.Size = new System.Drawing.Size(75, 34);
+            this.bStartAuto.TabIndex = 3;
+            this.bStartAuto.Text = "Запустить";
+            this.bStartAuto.UseVisualStyleBackColor = true;
+            this.bStartAuto.Click += new System.EventHandler(this.bStartAuto_Click);
             // 
             // label13
             // 
@@ -338,7 +414,7 @@ namespace Integral
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(721, 319);
+            this.tabPage2.Size = new System.Drawing.Size(655, 319);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Ручная интеграция";
             // 
@@ -357,7 +433,7 @@ namespace Integral
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 105);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(715, 110);
+            this.dataGridView1.Size = new System.Drawing.Size(649, 110);
             this.dataGridView1.TabIndex = 2;
             // 
             // Column1
@@ -398,7 +474,7 @@ namespace Integral
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(3, 215);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(715, 101);
+            this.panel3.Size = new System.Drawing.Size(649, 101);
             this.panel3.TabIndex = 1;
             // 
             // panel8
@@ -408,7 +484,7 @@ namespace Integral
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
             this.panel8.Padding = new System.Windows.Forms.Padding(4);
-            this.panel8.Size = new System.Drawing.Size(579, 101);
+            this.panel8.Size = new System.Drawing.Size(513, 101);
             this.panel8.TabIndex = 2;
             // 
             // groupBox1
@@ -425,7 +501,7 @@ namespace Integral
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(571, 93);
+            this.groupBox1.Size = new System.Drawing.Size(505, 93);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Легенда";
@@ -509,7 +585,7 @@ namespace Integral
             this.panel9.Controls.Add(this.bSelectAtributes);
             this.panel9.Controls.Add(this.button1);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(579, 0);
+            this.panel9.Location = new System.Drawing.Point(513, 0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(136, 101);
             this.panel9.TabIndex = 4;
@@ -558,7 +634,7 @@ namespace Integral
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(715, 102);
+            this.panel1.Size = new System.Drawing.Size(649, 102);
             this.panel1.TabIndex = 0;
             // 
             // comboBox2
@@ -702,127 +778,9 @@ namespace Integral
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(721, 319);
+            this.tabPage3.Size = new System.Drawing.Size(655, 319);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "История изменений";
-            // 
-            // файлToolStripMenuItem1
-            // 
-            this.файлToolStripMenuItem1.Name = "файлToolStripMenuItem1";
-            this.файлToolStripMenuItem1.Size = new System.Drawing.Size(45, 20);
-            this.файлToolStripMenuItem1.Text = "Файл";
-            // 
-            // файлToolStripMenuItem2
-            // 
-            this.файлToolStripMenuItem2.Name = "файлToolStripMenuItem2";
-            this.файлToolStripMenuItem2.Size = new System.Drawing.Size(45, 20);
-            this.файлToolStripMenuItem2.Text = "Файл";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(16, 66);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(139, 13);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "Настройки справочников:";
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.AliceBlue;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column7,
-            this.Column8,
-            this.Column9,
-            this.Column10,
-            this.Column20,
-            this.Column21,
-            this.Column11,
-            this.Column12});
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(10, 10);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(695, 208);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.AliceBlue;
-            this.panel12.Controls.Add(this.label24);
-            this.panel12.Controls.Add(this.label23);
-            this.panel12.Controls.Add(this.dateTimePicker4);
-            this.panel12.Controls.Add(this.dateTimePicker3);
-            this.panel12.Controls.Add(this.label19);
-            this.panel12.Controls.Add(this.comboBox4);
-            this.panel12.Controls.Add(this.label18);
-            this.panel12.Controls.Add(this.label17);
-            this.panel12.Controls.Add(this.comboBox3);
-            this.panel12.Controls.Add(this.label15);
-            this.panel12.Controls.Add(this.label16);
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(3, 3);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(715, 95);
-            this.panel12.TabIndex = 0;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(153, 10);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(94, 13);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "12.05.16 12:55:03";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(14, 10);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(125, 13);
-            this.label16.TabIndex = 11;
-            this.label16.Text = "Последнее изменение:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(14, 32);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(136, 13);
-            this.label17.TabIndex = 13;
-            this.label17.Text = "Система для интеграции:";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "САПР ТП ТеМП"});
-            this.comboBox3.Location = new System.Drawing.Point(156, 29);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(148, 21);
-            this.comboBox3.TabIndex = 14;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "САПР ТП ТеМП"});
-            this.comboBox4.Location = new System.Drawing.Point(340, 29);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(163, 21);
-            this.comboBox4.TabIndex = 16;
-            this.comboBox4.Text = "Все";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(337, 12);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(67, 13);
-            this.label18.TabIndex = 15;
-            this.label18.Text = "Справочник";
             // 
             // panel13
             // 
@@ -831,7 +789,7 @@ namespace Integral
             this.panel13.Location = new System.Drawing.Point(3, 98);
             this.panel13.Name = "panel13";
             this.panel13.Padding = new System.Windows.Forms.Padding(3);
-            this.panel13.Size = new System.Drawing.Size(715, 117);
+            this.panel13.Size = new System.Drawing.Size(649, 117);
             this.panel13.TabIndex = 1;
             // 
             // dataGridView3
@@ -851,8 +809,43 @@ namespace Integral
             this.dataGridView3.GridColor = System.Drawing.Color.GhostWhite;
             this.dataGridView3.Location = new System.Drawing.Point(3, 3);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(709, 111);
+            this.dataGridView3.Size = new System.Drawing.Size(643, 111);
             this.dataGridView3.TabIndex = 0;
+            // 
+            // Column13
+            // 
+            this.Column13.HeaderText = "Дата изменения";
+            this.Column13.Name = "Column13";
+            // 
+            // Column14
+            // 
+            this.Column14.HeaderText = "Система";
+            this.Column14.Name = "Column14";
+            // 
+            // Column15
+            // 
+            this.Column15.HeaderText = "Справочник";
+            this.Column15.Name = "Column15";
+            // 
+            // Column18
+            // 
+            this.Column18.HeaderText = "Обозначение";
+            this.Column18.Name = "Column18";
+            // 
+            // Column19
+            // 
+            this.Column19.HeaderText = "Наименование";
+            this.Column19.Name = "Column19";
+            // 
+            // Column16
+            // 
+            this.Column16.HeaderText = "Тип изменения";
+            this.Column16.Name = "Column16";
+            // 
+            // Column17
+            // 
+            this.Column17.HeaderText = "Отменить";
+            this.Column17.Name = "Column17";
             // 
             // panel14
             // 
@@ -861,7 +854,7 @@ namespace Integral
             this.panel14.Location = new System.Drawing.Point(3, 215);
             this.panel14.Name = "panel14";
             this.panel14.Padding = new System.Windows.Forms.Padding(4);
-            this.panel14.Size = new System.Drawing.Size(715, 101);
+            this.panel14.Size = new System.Drawing.Size(649, 101);
             this.panel14.TabIndex = 2;
             // 
             // groupBox2
@@ -876,7 +869,7 @@ namespace Integral
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(707, 93);
+            this.groupBox2.Size = new System.Drawing.Size(641, 93);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Легенда";
@@ -935,72 +928,25 @@ namespace Integral
             this.panel18.Size = new System.Drawing.Size(20, 20);
             this.panel18.TabIndex = 2;
             // 
-            // Column13
+            // panel12
             // 
-            this.Column13.HeaderText = "Дата изменения";
-            this.Column13.Name = "Column13";
-            // 
-            // Column14
-            // 
-            this.Column14.HeaderText = "Система";
-            this.Column14.Name = "Column14";
-            // 
-            // Column15
-            // 
-            this.Column15.HeaderText = "Справочник";
-            this.Column15.Name = "Column15";
-            // 
-            // Column18
-            // 
-            this.Column18.HeaderText = "Обозначение";
-            this.Column18.Name = "Column18";
-            // 
-            // Column19
-            // 
-            this.Column19.HeaderText = "Наименование";
-            this.Column19.Name = "Column19";
-            // 
-            // Column16
-            // 
-            this.Column16.HeaderText = "Тип изменения";
-            this.Column16.Name = "Column16";
-            // 
-            // Column17
-            // 
-            this.Column17.HeaderText = "Отменить";
-            this.Column17.Name = "Column17";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(137, 60);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(13, 13);
-            this.label19.TabIndex = 17;
-            this.label19.Text = "с";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(156, 56);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(148, 20);
-            this.dateTimePicker3.TabIndex = 18;
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(340, 56);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(163, 20);
-            this.dateTimePicker4.TabIndex = 19;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(14, 60);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(115, 13);
-            this.label23.TabIndex = 20;
-            this.label23.Text = "Показать изменения";
+            this.panel12.BackColor = System.Drawing.Color.AliceBlue;
+            this.panel12.Controls.Add(this.label24);
+            this.panel12.Controls.Add(this.label23);
+            this.panel12.Controls.Add(this.dateTimePicker4);
+            this.panel12.Controls.Add(this.dateTimePicker3);
+            this.panel12.Controls.Add(this.label19);
+            this.panel12.Controls.Add(this.comboBox4);
+            this.panel12.Controls.Add(this.label18);
+            this.panel12.Controls.Add(this.label17);
+            this.panel12.Controls.Add(this.comboBox3);
+            this.panel12.Controls.Add(this.label15);
+            this.panel12.Controls.Add(this.label16);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel12.Location = new System.Drawing.Point(3, 3);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(649, 95);
+            this.panel12.TabIndex = 0;
             // 
             // label24
             // 
@@ -1011,73 +957,128 @@ namespace Integral
             this.label24.TabIndex = 21;
             this.label24.Text = "по";
             // 
-            // Column7
+            // label23
             // 
-            this.Column7.HeaderText = "Наименование справочника";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            this.Column7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(14, 60);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(115, 13);
+            this.label23.TabIndex = 20;
+            this.label23.Text = "Показать изменения";
             // 
-            // Column8
+            // dateTimePicker4
             // 
-            this.Column8.HeaderText = "Наименование системы";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            this.Column8.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column8.Width = 90;
+            this.dateTimePicker4.Location = new System.Drawing.Point(340, 56);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(163, 20);
+            this.dateTimePicker4.TabIndex = 19;
             // 
-            // Column9
+            // dateTimePicker3
             // 
-            this.Column9.HeaderText = "Использовать в автоматическом режиме";
-            this.Column9.Name = "Column9";
-            this.Column9.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dateTimePicker3.Location = new System.Drawing.Point(156, 56);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(148, 20);
+            this.dateTimePicker3.TabIndex = 18;
             // 
-            // Column10
+            // label19
             // 
-            this.Column10.HeaderText = "Время начала интеграции";
-            this.Column10.Name = "Column10";
-            this.Column10.Width = 70;
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(137, 60);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(13, 13);
+            this.label19.TabIndex = 17;
+            this.label19.Text = "с";
             // 
-            // Column20
+            // comboBox4
             // 
-            this.Column20.HeaderText = "Использовать ограничитель";
-            this.Column20.Name = "Column20";
-            this.Column20.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column20.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "САПР ТП ТеМП"});
+            this.comboBox4.Location = new System.Drawing.Point(340, 29);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(163, 21);
+            this.comboBox4.TabIndex = 16;
+            this.comboBox4.Text = "Все";
             // 
-            // Column21
+            // label18
             // 
-            this.Column21.HeaderText = "Задать ограничитель";
-            this.Column21.Name = "Column21";
-            this.Column21.Width = 90;
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(337, 12);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(67, 13);
+            this.label18.TabIndex = 15;
+            this.label18.Text = "Справочник";
             // 
-            // Column11
+            // label17
             // 
-            this.Column11.HeaderText = "Настройки";
-            this.Column11.Name = "Column11";
-            this.Column11.Text = "Изменить";
-            this.Column11.Width = 80;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(14, 32);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(136, 13);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "Система для интеграции:";
             // 
-            // Column12
+            // comboBox3
             // 
-            this.Column12.HeaderText = "Конфигурационный файл";
-            this.Column12.Name = "Column12";
-            this.Column12.ReadOnly = true;
-            this.Column12.Text = "Изменить";
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "САПР ТП ТеМП"});
+            this.comboBox3.Location = new System.Drawing.Point(156, 29);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(148, 21);
+            this.comboBox3.TabIndex = 14;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(153, 10);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(94, 13);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "12.05.16 12:55:03";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(14, 10);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(125, 13);
+            this.label16.TabIndex = 11;
+            this.label16.Text = "Последнее изменение:";
+            // 
+            // файлToolStripMenuItem1
+            // 
+            this.файлToolStripMenuItem1.Name = "файлToolStripMenuItem1";
+            this.файлToolStripMenuItem1.Size = new System.Drawing.Size(45, 20);
+            this.файлToolStripMenuItem1.Text = "Файл";
+            // 
+            // файлToolStripMenuItem2
+            // 
+            this.файлToolStripMenuItem2.Name = "файлToolStripMenuItem2";
+            this.файлToolStripMenuItem2.Size = new System.Drawing.Size(45, 20);
+            this.файлToolStripMenuItem2.Text = "Файл";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Integral.Properties.Resources.Stoppe;
+            this.pictureBox1.Location = new System.Drawing.Point(26, 29);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(816, 391);
+            this.ClientSize = new System.Drawing.Size(750, 391);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.MinimumSize = new System.Drawing.Size(824, 425);
+            this.MinimumSize = new System.Drawing.Size(24, 425);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Интегратор НСИ";
@@ -1088,9 +1089,9 @@ namespace Integral
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel3.ResumeLayout(false);
@@ -1103,14 +1104,14 @@ namespace Integral
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
             this.panel13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.panel14.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1170,7 +1171,7 @@ namespace Integral
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button bStartAuto;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem запуститьToolStripMenuItem;
